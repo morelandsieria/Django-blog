@@ -1,5 +1,5 @@
 FROM python:3.10.12
-WORKDIR /home/gnidolf/DEV/PYTHON/django_sprint4
+WORKDIR /home/gnidolf/DEV/PYTHON/Django-blog
 COPY . .
 CMD ["python" "-m" "venv" "venv"]
 RUN . venv/bin/activate
